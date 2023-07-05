@@ -1,0 +1,179 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #c26c1cad;
+    color: #fdf8e6;
+}
+
+body.modo-escuro {
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+header {
+    background-color: #381e08;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo {
+    width: 65px;
+}
+
+header .imagem-botao {
+    width: 30px;
+}
+
+header .titulo {
+    font-size: 30px;
+    max-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .logo:hover:hover,
+header .imagem-botao:hover {
+    transform: scale(1.2);
+}
+
+main .cartao-cafe:hover {
+    transform: scale(1.05);
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem-cafe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-cafe {
+    background-color: #332810;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-cafe:hover {
+    background-color: #7a3100c7;
+}
+
+.modo-escuro .cartao-cafe {
+    background-color: #000000;
+}
+
+
+main .cartao-cafe .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid#333333;
+    border-radius: 10px;
+    background-color: #856114;
+}
+
+main .cartao-cafe .descricao {
+    margin: 5px;
+    font-style: italic;
+}
+
+main .valores {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid#333333;
+    border-radius: 10px;
+    background-color: #856114;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-cafe .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+main .cartao-cafe .jpg {
+    width: 200px;
+    height: 200px;
+}
+
+main .cartao-cafe .jpeg {
+    width: 200px;
+    height: 200px;
+}
+
+main .cartao-cafe .png {
+    width: 200px;
+    height: 200px;
+}
+
+main .cartao-cafe .gif {
+    width: 200px;
+    height: 200px;
+}
+
+main .cartao-cafe .tipos {
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-cafe .tipo {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.leite {
+    background-color: #d1a450;
+}
+
+.chocolate {
+    background-color: #2e1d03fb;
+}
+
+.cafe {
+    background-color: #1d1007;
+}
+
+.cha {
+    background-color: #83b148b6;
+}
+
+.suco {
+    background-color: #db0847b6;
+}
+
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+footer {
+    max-height: 30px;
+    overflow-y: scroll;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 50px;
+}
